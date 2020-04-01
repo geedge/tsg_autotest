@@ -1,0 +1,1 @@
+curl -kv https://www.taobao.com/ | iconv -f utf-8 -t gbk

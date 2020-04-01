@@ -1,0 +1,1 @@
+curl -kv http://military.miercn.com/ | iconv -f utf-8 -t gbk

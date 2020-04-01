@@ -1,0 +1,1 @@
+curl -kv http://www.xiaozhu.com/#ongo/ | iconv -f utf-8 -t gbk

@@ -1,0 +1,1 @@
+curl -kv https://www.toutiao.com/ch/news_hot/ | iconv -f utf-8 -t gbk

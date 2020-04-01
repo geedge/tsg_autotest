@@ -1,0 +1,1 @@
+curl -kv https://www.zakon.kz/top_news/ | iconv -f utf-8 -t gbk

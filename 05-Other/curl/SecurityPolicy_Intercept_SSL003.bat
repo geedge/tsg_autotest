@@ -1,0 +1,1 @@
+curl -kv https://client.badssl.com/ | iconv -f utf-8 -t gbk

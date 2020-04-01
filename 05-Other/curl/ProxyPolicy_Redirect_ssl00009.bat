@@ -1,0 +1,1 @@
+curl  -kv -H "Content-Type:application/x-www-form-urlencoded" -X POST -d "reqBody=123456&setCookie=set-cookie&contentType=content-type&resBody=Response Body" https://open.node.com/action | iconv -f utf-8 -t gbk

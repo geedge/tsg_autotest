@@ -1,0 +1,1 @@
+curl -kv https://youtube.com/ | iconv -f utf-8 -t gbk

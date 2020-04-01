@@ -1,0 +1,1 @@
+curl -kv https://nationalbank.kz/ | iconv -f utf-8 -t gbk

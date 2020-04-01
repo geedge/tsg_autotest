@@ -1,0 +1,1 @@
+curl -kv https://bj.zu.ke.com/zufang | iconv -f utf-8 -t gbk

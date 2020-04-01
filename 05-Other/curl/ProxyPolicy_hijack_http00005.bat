@@ -1,0 +1,1 @@
+curl -kv http://www.ccb.com/cn/home/indexv3.html | iconv -f utf-8 -t gbk

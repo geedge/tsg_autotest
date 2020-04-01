@@ -1,0 +1,1 @@
+curl -kv http://www.tianya.cn/ | iconv -f utf-8 -t gbk

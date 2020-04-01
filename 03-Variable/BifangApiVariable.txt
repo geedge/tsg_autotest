@@ -1,0 +1,45 @@
+*** Variables ***
+#ui登陆还是api登陆
+${loginType}      api
+#API配置信息
+${host}           192.168.40.120
+${port}           8080
+${authmode}       1
+${authCode}       ${EMPTY}
+${ldapId}         27
+${version}        v1
+${username}       uitest
+${password}       111111
+${encodePassword}    ${EMPTY}
+${token}          ${EMPTY}
+#[Documentation]    测试终端IP统一配置
+${testClentIP}    192.168.50.43
+#自动化标签
+${userTagIds}	 ${EMPTY}
+#Documentation]    是否添加测试终端IP到策略统一配置，0为不添加测试终端IP，1为添加测试终端IP，默认1
+${addTestClentIPFlag}    1
+#执行需要暂停时间
+#策略下发后到验证需等待时间
+${policyVerificationSleepSeconds}    20
+#策略验证后到验证策略日志需等待时间
+${policyLogVerificationSleepSeconds}    50
+${path}           E:/auto_git/tsg_autotest
+${curlbatpath}    ${path}/05-Other/curl
+${mailpath}    ${path}/05-Other/mail
+#全流程分阶段测试参数
+#[Documentation]    当前测试部分，all为一个终端全网全流程测试，
+#1为添加策略和对象测试；
+#2为功能端业务验证部分测试；
+#3为llog日志验证测试
+${testPart}       all
+#UI配置的本地IP名称
+${LocahIPName}    ${EMPTY}
+${ipType}         ipv4
+${ipMask}         255.255.255.255
+${browserType}    chrome
+# Cli自动化测试变量[start]
+${cliHost}                192.168.40.165
+${cliUsername}            tsgadmin
+${cliPassword}            Cli2019
+${timeout}                600s
+# Cli自动化测试变量[end]

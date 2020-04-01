@@ -1,0 +1,1 @@
+curl -kv http://www.ziroom.com/life/index | iconv -f utf-8 -t gbk

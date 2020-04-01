@@ -1,0 +1,1 @@
+curl -kv https://www.myssl.cn/ | iconv -f utf-8 -t gbk

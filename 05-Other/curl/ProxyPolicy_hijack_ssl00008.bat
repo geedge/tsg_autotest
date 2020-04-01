@@ -1,0 +1,1 @@
+curl -kv https://twitter.com/login | iconv -f utf-8 -t gbk

@@ -1,0 +1,1 @@
+curl -kv https://www.olx.kz/uslugi/ | iconv -f utf-8 -t gbk

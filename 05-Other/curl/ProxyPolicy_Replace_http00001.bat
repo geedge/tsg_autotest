@@ -1,0 +1,1 @@
+curl -kv http://sz.xiaozhu.com/fangzi/6257935516.html | iconv -f utf-8 -t gbk

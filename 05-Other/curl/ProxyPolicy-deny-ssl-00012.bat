@@ -1,0 +1,1 @@
+curl -kv https://rutube.ru/ | iconv -f utf-8 -t gbk

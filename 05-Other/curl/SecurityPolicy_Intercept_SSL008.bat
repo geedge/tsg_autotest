@@ -1,0 +1,1 @@
+curl -kv https://360.cn/ | iconv -f utf-8 -t gbk

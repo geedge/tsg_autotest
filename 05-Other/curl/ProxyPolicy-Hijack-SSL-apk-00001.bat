@@ -1,0 +1,1 @@
+curl -kv --user-agent "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36" --referer 'https://www.baidu.com/' https://wap.sogou.com/| iconv -f utf-8 -t gbk

@@ -1,0 +1,1 @@
+curl -kv https://self-signed.badssl.com/ | iconv -f utf-8 -t gbk

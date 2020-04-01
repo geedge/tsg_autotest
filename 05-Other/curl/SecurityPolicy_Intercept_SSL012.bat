@@ -1,0 +1,1 @@
+curl -kv https://halfrost.com/ | iconv -f utf-8 -t gbk
